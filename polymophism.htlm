@@ -46,7 +46,7 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h1>Protected and Unprotected Variables in python</h1>
+										<h1>Polymorphism</h1>
 									</header>
 									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
 									<p>In Python, variables can be protected or unprotected, depending on the naming convention used.</p>
