@@ -55,9 +55,11 @@
 									<p>Operator overloading allows operators such as +, -, and * to be defined for user-defined classes. This allows objects of the user-defined class to be used in the same way as built-in types.</p>
 									<p>The example below shows a program where polymorphism demonstrasted in a driveless car.</p>
 									<span class="image main"><img src="images/polymophism.jpg" alt="" /></span>
-									<p>In this implementation, the _password variable is protected by convention (note the leading underscore), meaning it should not be accessed directly by client code. Instead, it can be set and accessed via the set_password() method. The entry variable is an unprotected variable that can be accessed and modified directly.</p>
-									<p>The add_entry() method allows a new entry to be added to the diary. If a password has been set, it must be provided as an argument to the method. If the password is correct, the entry is added to the entry variable. If the password is incorrect, the method returns an error message.</p>
-									<p>The read_entries() method allows the diary entries to be read. Again, if a password has been set, it must be provided as an argument. If the password is correct, the entries are printed to the console. If the password is incorrect, the method returns an error message.</p>
+									<p>In this implementation, we have a base class Vehicle that contains the info() method and an abstract start() method. The Car and Truck classes inherit from Vehicle and override the start() method to provide their own implementation.</p>
+									<p>The DriverlessCar class also inherits from Vehicle but provides its own implementation of both the start() method and a new navigate() method.</p>
+									<p>In the for loop, we create instances of Car, Truck, and DriverlessCar and store them in a tuple. We then iterate over the tuple and call the start() method on each vehicle. Because the start() method is polymorphic, the appropriate implementation is called for each object.</p>
+									<p>We then call the info() method on each object to print out information about the vehicle. Note that because DriverlessCar inherits from Vehicle, it also has access to the info() method.</p>
+									<p>Overall, polymorphism provides a flexible and powerful tool for writing more dynamic, reusable, and maintainable code in Python. Polymorphism allows code reusability. Polymorphism allows objects to take on many forms, giving us more flexibility in how we use objects and data types.Polymorphism can make code more readable and easier to understand. Polymorphism can simplify code maintenance by reducing the amount of code that needs to be updated when changes are made to data types or objects. Because polymorphic code is more generic and adaptable, it is less likely to break when changes are made to objects or data types.</p>
 									<header class="major">
 										<h2>Module self reflection</h2>
 									</header>
