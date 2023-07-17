@@ -53,6 +53,10 @@
 									<p><img src="images/consumer.jpg" alt="" /></p>
 									<p>Running the consumer-producer code above will give us the following output</p>
 									<p><img src="images/consumerrun.jpg" alt="" /></p>
+									<p>The queue data structure is used as a communication tool between the producer and the consumer. The producer thread puts data in the queue and the consumer thread takes numbers from the queue thus ensuring that the producer does not produce numbers faster that how the consumer processes them. With this we can also see that the queue is also helping in synchronizing the processes.</p>
+									<p>The q.put() statement is the one that putting the number I in the queue q. The put() method on the Queue object takes an object as an argument and adds it to the queue. If the queue is full, the put() method will block until there is a free slot in the queue.</p>
+									<p>The q.get() statement in the code gets an item from the queue q. The get() method on the Queue object removes an item from the queue and returns it. If the queue is empty, the get() method will block until there is an item in the queue. The get() methosremoves an item from the queue, returns the item from the queue and block the queue if its empty</p>
+									<p>The q.join() method on the Queue object blocks the calling thread until all the items in the queue have been processed. This ensures that the consumer thread has finished processing all the numbers before the program terminates. The join() method blocks the calling thread, decrements the counter of unfinished tasks in a queue and returns when the counter reached zero</p>
 									<p></p>
 									<li><a href="secureart.html">Module Artefacts</a></li>									
 								</div>
