@@ -46,14 +46,15 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h1>Faceted Data</h1>
+										<h1>Regex, ReDoS and Evil Regex</h1>
 									</header>
 									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
-									<p>The article by Read Schmitz et al (2016) describes faceted values as values that present different behavior according to the privilege of the observers and faceted data as a way of organizing data so that it can be viewed and manipulated in different ways. Faceted evaluation is a technique for simulating secure multi-execution with a single process, using special faceted values that contain both a public view and a private view of the data, meaning a single execution can provide many of the same guarantees that secure multi-execution provides while achieving better performance.</p>
-									<p>I think this is a good approach to protect system from data leakage as you are sure that only authorized users with recommended privileges can view what is recommended to them. According to Schmitz et al (2016), faceted values can be incorporated within existing language via library support and this means faceted data is flexible and can adapt to the needs of an application.</p>
-									<p>However, prior work to implement faceted values is a complex processes and requires development of new language semantics and also the implementation can be ineffective if poorly designed.</p>
-									<p>A basic outline design of creating this in python is shown below;</p>
-                                                                        <p><p><img src="images/faceted.jpg" alt="" /></p></p>											
+									<p>Regular expressions are extensively used to process strings which makes it easy for developers to use ( Larson (2018)). Regular expressions are used in searching, validate data on web page form and processing data. </p>
+									<p>The Regular expression Denial of Service (ReDoS) according to Weidman (n.d.) is Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly and an attacker can then cause program using a Regular Expression (Regex) to enter these extreme situations and hang.</p>
+									<p>A Regex pattern is called an Evil Regex if it can get stuck on special crafted input. These are designed to cause the regular expression inefficient and take a very long time to evaluate and effectively crashing the system.</p>
+									<p>Poorly written Regex can be inefficient leading to performance issues in applications that use them and this can be avoided by making sure that regular expressions used do not use inefficient features like repeated patterns. Also, poorly sanitized regular expressions can be vulnerable to attacks and cause denial of services and even system crashes (Larson (2018)), so make sure user input is properly sanitized. </p>
+									<p>According to Larson (2018). Regular expressions can be used to help validating data on web forms and this can help prevent attackers from abusing the systems.</p>
+								
 									<li><a href="secureart.html"> Module Artefacts</a></li>
 																		
 								</div>
