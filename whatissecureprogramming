@@ -46,23 +46,16 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h1>Module Artefacts</h1>
+										<h1>What is secure programming?</h1>
 									</header>
 									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
-									<p>In this module, there were various activities that we carried out as part of practical exercise for secure software development in order to help us develop a deeper understanding of the topic.</p>
-									<p>There have been two collaborative discussions which we will show in this section that were designed to help us discusss topics and show critical thinking in the process. There were also codio activities which exposed us to the actual coding environment to allow us test the code.  </p>
-									<li><a href="pythontools.html"> Exploring Python tools and features</a></li>
-									<li><a href="index.html">The Producer-Consumer Mechanism</a></li>
-									<li><a href="index.html">What is a Secure Programming Language?</a></li>
-									<li><a href="index.html">Collaborative Discussion 1: UML flowchart</a></li>
-									<li><a href="index.html">Programming language concepts</a></li>
-									<li><a href="index.html">Equivalence Testing in Python</a></li>
-									<li><a href="index.html">Exploring the Cyclomatic Complexity’s Relevance Today</a></li>
-									<li><a href="index.html">What is an Ontology?</a></li>
-									<li><a href="index.html">Codio: Exploring a simple Python shell</a></li>
-									<li><a href="index.html">Codio: Developing an API for a Distributed Environment</a></li>
-									<li><a href="index.html">Collaborative Discussion 2: Cryptography case study: TrueCrypt</a></li>
-									<li><a href="index.html">Faceted Data</a></li>									
+									<p>According to Pillai (2017), there are several factors that determine whether a programming language is secure or not. Some of the factors include;.</p>
+									<p>1.	How the language manage memory. If the language manage memory well, it prevent memory leaks that are used by attackers </p>
+                                                                        <p>2.	How well the language is documented also determine how secure it is. If a language has a well written documentation it can help developers understand it and help maintain security features.</p>
+									<p>3.	The community using the programming language also plays a role in determining the security of a language. A strong community will easily identify weak points and fix them.</>
+                                                                        <p>I consider python to be a secure language as fulfils all the above points that have been noted.</>
+                                                                        <p>Python has qualities of better security and would be better to develop operating systems with if we can only consider security as a major factor. However, C perform much faster than python which may cause performance issues. In conclusion, the choice will depend on the major requirement.</p>
+                                                                        <li><a href="secureart.html">Module Artefacts</a></li>									
 								</div>
 							</section>
 
